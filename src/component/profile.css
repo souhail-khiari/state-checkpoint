@@ -1,0 +1,34 @@
+.containner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-weight: bold;
+    animation: mymove 4s infinite;
+}
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 300px;
+    }
+}
+h1 {
+    margin-top: 10px;
+    color: aquamarine;
+    font-family: emoji;
+    font-size: 90px;
+    text-shadow: 4px 8px 2px rgb(131, 158, 160);
+}
+h2 {
+    color: rgb(49, 95, 72);
+    font-family: emoji;
+    font-size: 80px;
+    text-shadow: 4px 8px 2px rgb(31, 32, 32);
+}
+h3 {
+    color: rgb(90, 153, 168);
+    font-family: emoji;
+    font-size: 50px;
+    text-shadow: 4px 8px 2px rgb(12, 14, 14);
+}
